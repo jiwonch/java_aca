@@ -220,7 +220,7 @@ class Main4 {
 
         if (age <= 19) {
             System.out.println("할인대상입니다.");
-        } else if(age >= 60) {
+        } else if (age >= 60) {
             System.out.println("할인대상입니다.");
         } else {
             System.out.println("할인 대상이 아닙니다.");
@@ -308,7 +308,7 @@ class MainGugudan {
     public static void main(String[] args) {
         int dan = 8;
 
-        for ( int i = 1; i <= 1000; i++) {
+        for (int i = 1; i <= 1000; i++) {
             System.out.println(dan + " * " + i + " = " + dan * i);
         }
 
@@ -339,7 +339,7 @@ class MainPrintInteger {
 
 class MainPrintminusInteger {
     public static void main(String[] args) {
-        for (int i = -100; i <=25; i++) {
+        for (int i = -100; i <= 25; i++) {
             System.out.println(i);
         }
     }
@@ -366,7 +366,7 @@ class Main0512hw2 {
 class Main0512hw3 {
     public static void main(String[] args) {
         int sum = 0;
-        for(int i = 0; i <= 5; i++) {
+        for (int i = 0; i <= 5; i++) {
             sum += i;
         }
         System.out.println(sum);
@@ -382,9 +382,9 @@ class Main0512hw4 {
 //        }
 
         int i = 0;
-        while(i < 10) {
+        while (i < 10) {
             int j = 1;
-            while(j <= 3) {
+            while (j <= 3) {
                 System.out.println(j);
                 j++;
             }
